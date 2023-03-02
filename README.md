@@ -1,3 +1,9 @@
+# #boraCodar
+
+Esta é uma página unificada dos meus projetos do **#boraCodar**, feito pela **RocketSeat**
+
+O objetivo deste projeto é servir de vitrine para os projetos do **#boraCodar** mas principalmente para este usuario aprender a aprimorar habilidades em Next.JS, React e outras funcionalidades.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
