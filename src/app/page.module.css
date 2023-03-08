@@ -1,24 +1,6 @@
 .main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3%;
-  width: 100%;
   height: 100vh;
-}
-
-.back {
-  padding: 2%;
-  justify-content: center;
-  background-color: var(--background-start);
-  width: 100%;
-  height: 100%;
-  border-radius: 25px;
-  filter: drop-shadow(0px 4px 32px var(--shadow));
-}
-
-.back p {
-  margin-left: 15px;
+  padding: 30px;
 }
 
 .out_flex {
@@ -27,56 +9,66 @@
 }
 
 .perfil_real {
-  max-width: 175px;
+  max-width: 150px;
   border-radius: 50%;
   filter: drop-shadow(0px 4px 32px var(--shadow));
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 .txt_perfil {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
-}
-
-.perfil_draw {
-  max-width: 75px;
-  position: absolute;
-  left: 52%;
-  top: 18%;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .back_codar {
-  position: absolute;
-  font-weight: 800;
-  font-size: 125px;
-  color: var(--ground);
+  opacity: 25%;
+  position: fixed;
+  font-weight: 800 !important;
+  font-size: 125px !important;
+  color: var(--background-start);
   cursor: default;
-  width: 95%;
   text-align: center;
 }
 
+.main p {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .out_grid {
-  padding: 10px;
+  opacity: 50%;
+  border-radius: 16px;
+  background-color: var(--background-start);
+  padding: 15px;
+  margin: 5px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px;
-  height: 65%;
+  gap: 15px;
+  height: 70%;
+  filter: drop-shadow(0px 4px 20px var(--shadow));
 }
 
 .card {
   background-color: var(--background-end);
   border-radius: 16px;
-  padding: 15px;
-  width: 100%;
   height: 100%;
 }
 
 
 
 
-@media (max-width: 1622px) {
+@media (max-width: 1463px) {
   .sec_codar {
     visibility: hidden;
+  }
+}
+
+@media (max-height: 800px) {
+  .out_grid{
+    height: 60%;
   }
 }
